@@ -557,7 +557,9 @@ function hmrAccept(bundle, id) {
 }
 
 },{}],"dV6cC":[function(require,module,exports) {
-if (module.hot) module.hot.accept();
+// if (module.hot) {
+//   module.hot.accept();
+// }
 
 },{}]},["fyTPu","dV6cC"], "dV6cC", "parcelRequire91a6")
 

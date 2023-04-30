@@ -1,5 +1,34 @@
+@import "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap";
+:root {
+  --color-primary: #00855b;
+  --color-primary-light: #cce7de;
+  --color-secoondary: #ff0;
+  --color-white: #fff;
+  --transition: all .3s ease-in;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+*, :after, :before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
 body {
-  background-color: red;
+  min-height: 100vh;
+  background-color: var(--color-primary);
+  font-family: Lato, sans-serif;
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=index.c92073ef.css.map */

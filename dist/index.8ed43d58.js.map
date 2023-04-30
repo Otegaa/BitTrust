@@ -1,0 +1,1 @@
+{"mappings":"AAAI","sources":["src/js/script.js"],"sourcesContent":["if (module.hot) {\n  module.hot.accept();\n}\n"],"names":[],"version":3,"file":"index.8ed43d58.js.map"}

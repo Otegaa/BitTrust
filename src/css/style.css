@@ -1,3 +1,39 @@
+/* font family */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+
+/* Variables */
+:root {
+  --color-primary: #00855b;
+  --color-primary-light: #cce7de;
+  --color-secoondary: #ffff00;
+  --color-white: #fff;
+  --transition: all 0.3s ease-in;
+}
+
+/* General styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
 body {
-  background-color: red;
+  min-height: 100vh;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  background-color: var(--color-primary);
 }
